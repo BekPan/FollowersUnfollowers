@@ -1,0 +1,18 @@
+Οδηγίες followersUnfollowers
+Κατέβασε τον φάκελο GR
+Εγκατάσταση vscode
+Εγκατάσταση python
+Εγκατάσταση playwright extension στο vscode
+Άνοιξε cmd 
+pip install --upgrade pip
+pip install playwright
+playwright install (or) python -m playwright install
+pip install openpyxl
+Άνοιξε user.txt
+Βάλε το [Όνομα Κωδικό αριθμό followers αριθμό following] μετά τα =
+Run followersFollowingGR.py (Ο browser να είναι στα ελληνικά αλλιώς run followersFollowingEN.py)
+Εαν κολλήσει στο login κλείσε τον browser και ξανά Run followersFollowingGR.py
+Εαν κολλήσει στο scroll με το ποντικί πάρε την μπάρα κάνε λίγο πάνω και μετά κάτω για να φορτώσει τα υπόλοιπα ονόματα στην λίστα.
+Αφού τελειώσει άνοιξε το excel. 
+Εαν δεν δουλεύει η φόρμουλα FILTER (μάλλον παλιά έκδοση excel).
+Επέλεξε μόνο την στήλη followers από το πρώτο όνομα μέχρι το τελευταίο και μετά αντίστοιχα την στήλη following. Μετά πάτα μορφοποίηση υπό όρους και κανόνες επισήμανσης κελιών. Διπλότυπες τιμές επιλογή μοναδικές και οκ.
